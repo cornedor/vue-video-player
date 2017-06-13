@@ -6,6 +6,7 @@
 
 <script>
   window.videojs = require('video.js')
+  require('video.js/dist/video-js.css')
   var languages = require('./languages.js')
   export default {
     name: 'video-player',
@@ -173,4 +174,3 @@
   }
 </script>
 
-<style src="./player.css"></style>
